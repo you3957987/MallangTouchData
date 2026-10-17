@@ -2,7 +2,7 @@
 
 말랑이 만지기 외부 운영 데이터입니다.
 
-`mailbox/mailbox.json`은 우편함용 배포 데이터 예제이며 현재 게임 번들의 `Resource/Mailbox/mailbox.json`과 같은 샘플입니다. 우편 3개와 공지 13개를 포함합니다. 공지 중 10개는 스크롤 테스트용 무보상 예시입니다. 실제 서비스 전에 내용과 보상 ID를 확인하세요.
+`mailbox/mailbox.json`은 우편함용 배포 데이터이며 우편 4개와 공지 13개를 포함합니다. 게임 번들의 샘플 목록에 원격 갱신 확인용 `메일 테스트` 우편(ID: `mail_test_20261017_01`, 말랑 조각 25개)을 추가했습니다. 공지 중 10개는 스크롤 테스트용 무보상 예시입니다. 보상은 실제로 지급되므로 서비스 운영 시 내용과 보상 ID를 확인하세요.
 
 - `id`는 고유하고 재지급하지 않을 항목은 변경하지 않습니다.
 - `type`은 `mail` 또는 `notice`입니다.
@@ -11,4 +11,10 @@
 - 공지는 `reward_type`이 빈 문자열이고 `reward_amount`가 0입니다.
 - `claimed`·`read`·`visible`은 클라이언트의 기존 저장 파일에 ID별로 기록하며 운영 JSON에서 수령 여부를 제어하지 않습니다.
 
-현재 게임은 번들 JSON을 읽습니다. 이후 HTTPRequest로 이 저장소의 JSON을 내려받아 `user://mailbox.json`에 저장한 뒤 `MailboxManager.load_catalog("user://mailbox.json")`를 호출하면 됩니다. 실제 원격 다운로드 및 GitHub 게시·푸시는 수행하지 않았습니다. 자세한 스키마·저장 정책은 MallangTouch의 `docs/MailboxSystem.md`를 참고하세요.
+게임의 원격 연동 구현은 앱 실행 시 아래 고정 주소에서 JSON을 다운로드합니다. 이 코드를 포함한 앱을 최초 배포한 뒤에는 `mailbox/mailbox.json`을 수정하고 main 브랜치에 커밋·푸시하면 다음 앱 실행 때 반영됩니다. GitHub CDN 캐시로 반영이 지연될 수 있습니다.
+
+<https://raw.githubusercontent.com/you3957987/MallangTouchData/main/mailbox/mailbox.json>
+
+정상 데이터만 `user://mailbox_cache.json`에 저장하며 다운로드·검증·캐시 저장 실패 시 기존 정상 목록을 유지합니다. 정상 캐시가 없거나 손상되었으면 앱 내부 번들 JSON을 사용합니다. `version`은 1, 최대 크기는 1MiB, 항목은 최대 1,000개이며 잘못된 항목이 하나라도 있으면 전체 갱신을 거부합니다. 날짜는 실제 달력 날짜여야 하고 예약 발송이 아닌 정렬용입니다. 기존 ID의 보상 수정이나 제거·재등록으로 수령 기록을 초기화할 수 없으며, 새 지급에는 새 ID를 사용합니다.
+
+공개 저장소의 열람과 원본 브랜치 수정 권한은 다릅니다. 개인 포크의 수정은 앱에 반영되지 않습니다. 다만 기기의 저장·캐시 변조, 데이터 삭제·재설치, 다른 기기에서의 재수령을 강제로 막는 서버 인증은 없습니다. 운영자 계정 탈취나 새 ID 반복 발행도 JSON 형식 검증만으로 막을 수 없습니다. 토큰·개인정보는 포함하지 마세요. 자세한 검증·저장 정책과 악용 검토는 MallangTouch의 `docs/MailboxSystem.md`를 참고하세요.

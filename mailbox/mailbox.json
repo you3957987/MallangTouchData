@@ -2,6 +2,16 @@
   "version": 1,
   "entries": [
     {
+      "id": "mail_test_20261017_01",
+      "type": "mail",
+      "title": "메일 테스트",
+      "summary": "테스트 선물로 말랑 조각 25개를 보내드려요!",
+      "content": "새로운 우편이 잘 도착했는지 확인하기 위한 테스트 메일이에요.\n말랑 조각 25개를 준비했으니 아래 받기 버튼을 눌러 주세요.\n오늘도 말랑이와 즐거운 시간 보내세요!",
+      "date": "2026-10-17",
+      "reward_type": "mallang_shards",
+      "reward_amount": 25
+    },
+    {
       "id": "update_20261015",
       "type": "mail",
       "title": "업데이트 기념 보상",
