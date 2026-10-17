@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "update_20261015",
+      "type": "mail",
+      "title": "업데이트 기념 보상",
+      "summary": "말랑이와 함께해 주셔서 감사합니다!",
+      "content": "말랑이 만지기를 플레이해 주셔서 감사합니다.\n업데이트 기념으로 말랑 조각 20개를 보내드려요!",
+      "date": "2026-10-15",
+      "reward_type": "mallang_shards",
+      "reward_amount": 20
+    },
+    {
+      "id": "maintenance_20261014",
+      "type": "notice",
+      "title": "점검 안내",
+      "summary": "점검 소식을 확인해 주세요.",
+      "content": "우편함 기능 확인용 샘플 공지입니다.\n실제 점검 일정은 정해지는 대로 안내해 드릴게요.",
+      "date": "2026-10-14",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "maintenance_reward_20261012",
+      "type": "mail",
+      "title": "점검 보상",
+      "summary": "기다려 주셔서 감사합니다.",
+      "content": "점검을 기다려 주셔서 감사합니다.\n말랑 조각 20개를 받아 주세요.",
+      "date": "2026-10-12",
+      "reward_type": "mallang_shards",
+      "reward_amount": 20
+    },
+    {
+      "id": "event_20261010",
+      "type": "notice",
+      "title": "이벤트 안내",
+      "summary": "새로운 소식을 확인해 주세요.",
+      "content": "우편함 기능 확인용 샘플 이벤트 안내입니다.\n말랑이와 즐거운 시간을 보내 주세요!",
+      "date": "2026-10-10",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "welcome_20261008",
+      "type": "mail",
+      "title": "환영 선물",
+      "summary": "말랑이 만지기에 오신 것을 환영해요!",
+      "content": "작은 환영 선물을 준비했어요.\n말랑 조각으로 상점을 둘러보세요.",
+      "date": "2026-10-08",
+      "reward_type": "mallang_shards",
+      "reward_amount": 10
+    },
+    {
+      "id": "mailbox_20261007",
+      "type": "notice",
+      "title": "우편함 이용 안내",
+      "summary": "우편과 공지를 한곳에서 확인해요.",
+      "content": "전체·우편·공지 탭에서 항목을 확인할 수 있어요.\n우편의 받기 버튼은 상세 창을 열며, 상세 창에서 받기를 눌러야 보상이 지급돼요.",
+      "date": "2026-10-07",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_01",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 01",
+      "summary": "01번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 01번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-10-06",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_02",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 02",
+      "summary": "02번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 02번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-10-05",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_03",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 03",
+      "summary": "03번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 03번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-10-04",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_04",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 04",
+      "summary": "04번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 04번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-10-03",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_05",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 05",
+      "summary": "05번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 05번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-10-02",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_06",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 06",
+      "summary": "06번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 06번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-10-01",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_07",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 07",
+      "summary": "07번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 07번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-09-30",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_08",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 08",
+      "summary": "08번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 08번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-09-29",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_09",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 09",
+      "summary": "09번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 09번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-09-28",
+      "reward_type": "",
+      "reward_amount": 0
+    },
+    {
+      "id": "scroll_test_notice_10",
+      "type": "notice",
+      "title": "스크롤 테스트 공지 10",
+      "summary": "10번째 예시 공지입니다. 아래로 내려 확인해 주세요.",
+      "content": "스크롤바 동작을 확인하기 위한 10번째 예시 공지입니다.\n전체 또는 공지 탭에서 목록을 위아래로 이동해 보세요.\n이 공지에는 보상이 없습니다.",
+      "date": "2026-09-27",
+      "reward_type": "",
+      "reward_amount": 0
+    }
+  ]
+}
